@@ -6,7 +6,8 @@
 </template>
 
 <script>
-    import HeaderComponent from './components/HeaderComponent';  // or wheatever location this component is residing.
+    import HeaderComponent from './components/HeaderComponent';
+
     export default {
         components: {HeaderComponent},
     };
@@ -30,7 +31,7 @@
         padding: 0;
         border: 0;
         font-size: 100%;
-        font-family: 'Roboto', sans-serif;;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, sans-serif;
         vertical-align: baseline;
         text-decoration: none;
     }
@@ -55,7 +56,6 @@
 
     blockquote:before, blockquote:after,
     q:before, q:after {
-        content: '';
         content: none;
     }
 
